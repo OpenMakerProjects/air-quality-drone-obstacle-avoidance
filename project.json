@@ -1,0 +1,20 @@
+{
+  "id": 822,
+  "title": "Air Quality Drone Obstacle Avoidance",
+  "repository_slug": "air-quality-drone-obstacle-avoidance",
+  "category": "Drones",
+  "platform": "Pixhawk + Raspberry Pi",
+  "platform_family": "python",
+  "difficulty": "Advanced",
+  "estimated_hours": 52,
+  "connectivity": "Telemetry radio",
+  "components": [
+    "LiDAR",
+    "payload servo"
+  ],
+  "scope": "Build a drones prototype that uses LiDAR, payload servo to avoid nearby obstacles during slow flight. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Obstacle Avoidance demonstration with repeatable test steps",
+  "mode": "interactive_monitor",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
